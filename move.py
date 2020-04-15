@@ -18,3 +18,6 @@ GPIO.setup(24, GPIO.OUT)
 GPIO.output(17, GPIO.HIGH)
 sleep(2)
 GPIO.output(17, GPIO.LOW)
+
+GPIO.cleanup()
+print("Exiting")
